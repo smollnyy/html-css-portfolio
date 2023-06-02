@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face { font-family: Notted; src: url("./assets/fonts/Notted-GOreO.otf"); } 
+@font-face { font-family: Notted; font-weight: bold; src: url("./assets/fonts/Notted-GOreO.otf");}
+
+.section.front-page{
+
+    background-color: #171717;
+    color:#EEEEEE;
+}
+
+section.portfolio{
+    background-color: #EEEEEE;
+    color: #171717;
+    width: 100%;
+}
+
+#portfolio-sign{
+    font-family: 'Monomaniac One', sans-serif;
+    font-weight: lighter;
+}
+
+.badge{
+    font-family: 'Readex Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+.section.about{
+
+    background-color: #c0c0c0;
+}
+
+section.contact{
+    background-color: #171717;
+    color:#EEEEEE;
+    padding-bottom: 5%;
+    
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;    
+}
+
+@media (max-width: 576px) {
+
+    .footer{
+        flex-direction: column-reverse;
+        gap: 5px;
+        
+    }
+}
+
+#benjamat-logo{
+    color: #EEEEEE;
+}
+
+.nav-link, .lead{
+    color: #EEEEEE;
+  }
+
+.sub-title{
+    font-size: 20pt;
+}
+
+.about-container{
+    color:#171717;
+}
+
+p, h2, h3, li{
+    font-family: 'Urbanist', sans-serif;
+}
+
+#skills{
+    display: flex;
+    justify-content:center;
+}
+
+#skills h2{
+    font-family: 'Readex Pro', sans-serif;
+    text-transform: uppercase;
+    font-size:13pt;
+    color:#585858;
+    margin-top: 7px;
+}
+
+.icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dot{
+    background-color: #fab818;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+}
+
+.dots-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn{
+    border-radius: 0%;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 9pt;
+    text-transform: uppercase;
+
+}
+
+.card{
+    background-color: #dfa92b;
+    color:#EEEEEE;
+    border-style: none;
+    width: 350px;
+    height: 320px;
+}
+
+
+  
+
