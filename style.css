@@ -42,6 +42,7 @@ p, h2, h3, li{
 
 /* ------------------------------------ */
 /* Home */
+/* Dark-Grey: #171717*/
 .section.front-page{
 
     background-color: #171717;
@@ -66,10 +67,24 @@ p, h2, h3, li{
     font-size: 30px;
 }
 
-/*.hello{
-    position: relative;
-    left: -30px;
-}*/
+.frontend-color{
+        color: #f7b337;
+
+}
+
+.uiux-color{
+    color: #fa9018;
+
+}
+
+.artist-color{
+    color: #f8cb91;
+
+}
+
+.hello{
+    color: #9e9e9e;
+} 
 
 
 /* ------------------------------------ */
@@ -95,7 +110,7 @@ section.portfolio{
     background-color: #dfa92b;
     color:#EEEEEE;
     border-style: none;
-    width: 350px;
+    width: 360px;
     height: 320px;
     border-radius: 0;
 }
@@ -157,6 +172,13 @@ section.contact{
         gap: 5px;
         
     }
+}
+
+/*--------------------------------------*/
+/* Artworks */
+.section.topnavbar{
+    background-color: #171717;
+    color:#EEEEEE;
 }
 
 
